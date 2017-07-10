@@ -1,0 +1,159 @@
+img{display: block;}html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+body { color:#333;font:12px/20px "SimSun",'iconfont',"宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a { color:#666; text-decoration:none; }
+@font-face {
+  font-family: 'iconfont';
+  src: url('../icons/iconfont.eot');
+  src: url('../icons/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+header{
+	width: 100%;
+	height:10vh;
+	color:white;
+	background:#a90506;
+	display: flex;
+	justify-content:space-around;
+	
+}
+header span{
+	display: inline-block;
+	line-height:10vh;
+	height:10vh;
+	text-align:center;
+	width:70vw;
+	font-size: 0.45rem;
+	font-family: "宋体";
+	font-weight: 900;
+}
+.btn{
+	height:0.6rem;
+    width:1rem;
+    border-radius:0.1rem;
+    background:#be0c0c;
+    margin-top:0.27rem;
+    font-size:0.5rem;
+    text-align: center;
+    line-height:0.6rem;
+    color:white;
+    outline-style: none;
+}
+section{
+	height:80vh;
+	width:100vw;
+}
+footer{
+	height:10vh;
+	width:100vw;
+	background:#484850;
+	color:white;
+	display: flex;
+	justify-content: space-around;
+}
+.div1{
+	display:inline-block;
+	height:10vh;
+	width:20vw;
+}
+.div1 p{
+	margin-top:0.05rem;
+	height:6vh;
+	line-height:6vh;
+	color:white;
+	text-align:center;
+	width:20vw;
+}
+.div1:hover{
+	width:20vw;
+	border-top:3px solid red;
+}
+.div1 span{
+	display:inline-block;
+	height:3vh;
+	line-height:3vh;
+	color:white;
+	width:20vw;
+	font-size:0.30rem;
+	text-align:center;
+}
+.box1{
+	height:5vh;
+	width:100vw;
+	background:#9a9fa5;
+    overflow: hidden;
+}
+ul{
+	width: 7.5rem;
+}
+.box1 li{
+	margin-left:0.12rem;
+	height:5vh;
+	line-height:5vh;
+	float: left;
+	font-size:0.43rem;
+}
+.active{
+	color:white;
+}
+.box2{
+	height:75vh;
+	width:100vw;
+	background:#f3f4f6;
+	overflow:hidden;
+}
+.box21{
+	height:19rem;
+}
+.d1{
+	height:3.3rem;
+	width:40vw;
+	float:left;
+	background:white;
+	margin:0 5vw;
+	margin-top:5vh;
+}
+.d1 dt{
+	width:40vw;
+	height:2.42rem;
+}
+.d1 dt img{
+ height:2.42rem;
+ width:40vw;
+}
+.d1 dd{
+	width:40vw;
+	height:0.55rem;
+	line-height:0.55rem;
+	overflow:hidden;
+    font-size:0.3rem;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.d1 p{
+	width:40vw;
+	height:0.4rem;
+	line-height:0.4rem;
+	
+	
+}
+.d1 p span:nth-of-type(1){
+	float: left;
+	margin-left:0.2rem;
+	font-size:0.3rem;
+	color:red;
+}
+.d1 p span:nth-of-type(2){
+	float: right;
+	margin-right:0.3rem;
+	font-size:0.3rem;
+	text-decoration: line-through;
+	color: grey;
+}
+

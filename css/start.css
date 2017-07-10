@@ -1,0 +1,33 @@
+img{display: block;}html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+body { color:#333;font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+
+a { color:#666; text-decoration:none; }
+
+.out{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.inner img{
+	width: 100vw;
+	height: 100vh;
+}
+ #btn{
+ 	display:inline-block;
+ 	width:3.5rem;
+ 	height:1rem;
+ 	font-size:0.6rem;
+ 	background:red;
+ 	color:white;
+ 	text-align:center;
+ 	line-height:1rem;
+ 	position:absolute;
+ 	border-radius: 0.1rem;
+ 	z-index:2;
+ 	bottom:2rem;
+ 	left:1.4rem;
+ }

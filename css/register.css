@@ -1,0 +1,99 @@
+img{display: block;}html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; } 
+body { color:#333;font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+
+a { color:#666; text-decoration:none; }
+body{
+	display:flex;
+	flex-direction:column;
+}
+header{
+	width: 100%;
+	height:10vh;
+	background:#a90506;
+}
+.img1{
+	height:0.6rem;
+	width:0.6rem;
+	margin-top:0.15rem;
+	float:left;
+	margin-left:0.2rem
+}
+.span1{
+	display:inline-block;
+	padding-left:1.4rem;
+	height:0.9rem;
+	line-height:0.9rem;
+	color:white;
+	font-size: 0.45rem;
+	font-family: "宋体";
+	float:left;
+}
+section{
+	background:#f3eff0;
+	height:90vh;
+	width: 100%;
+	padding-left:0.3rem;
+	padding-top:0.3rem;
+	flex:1;
+}
+.text1{
+	min-height:1.2rem;
+	height:auto!important;
+	height:1.2rem;
+}
+.text1 i{
+	padding-left:0.5rem;
+	color:red;
+	font-size:0.2rem;
+	display: none;
+}
+ .text1 p{
+	height:0.9rem;
+	border-radius: 0.08rem;
+	border:1px solid #f3eff0;
+	background:white;
+	line-height:.9rem;
+	padding-left:0.15rem;
+	font-size:0.26rem;
+}
+.text-1{
+	height:0.8rem;
+	width:3.72rem;
+	border:none;
+	outline-style: none;
+}
+.text-2{
+	height:0.8rem;
+	width:3.72rem;
+	border:none;
+	outline-style: none;
+}
+.text-3{
+	height:0.8rem;
+	width:3.72rem;
+	border:none;
+	outline-style: none;
+}
+.p2{
+	margin-left:1.3rem;
+	font-size:0.4rem;
+	color:red;
+	margin-top:0.5rem;
+	display: none;
+}
+.btn1{
+	height:0.9rem;
+	width:5.82rem;
+	border-radius: 0.1rem;
+	text-align:center;
+	color:white;
+	font-size:0.4rem;
+	margin-top:1.5rem;
+	margin-bottom: 0.1rem;
+	background:#a90506;
+	outline-style: none;
+}
